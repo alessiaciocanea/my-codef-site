@@ -2,13 +2,14 @@
 title: Home page
 date: 2017-11-01T18:28:28+02:00
 draft: false
+menu: "main"
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor cumque magnam aliquid, explicabo amet quasi eveniet reprehenderit dolorum exercitationem maiores provident ex error, tenetur.
 
 header:
-  description: <span class="white-color">Hello, my name is Alessia. I live and work in London. I'm keen on design and photography.</span>
+  description: <span class="white-color">Hello, my name is Alessia. I live and work in London. I'm keen on .</span>
   image:
-    url: London.jpg
-    alt: A landscape image of skyscrapers seen from below.
+    url: grey mountains.jpg
+    alt: Landscape image of skyscrapers
     media: "(max-width: 46.25em)"
     params:
     - options: 1130x500
@@ -21,16 +22,14 @@ header:
 text_groups:
   - name: Intro
     description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia esse aut, blanditiis ullam. Similique quo iusto ipsa, excepturi autem voluptate consectetur sit quae praesentium <span class="default-text bold-text">aliquam molestiae</span> minima ex perferendis aut unde tempora amet esse inventore quaerat molestias eum distinctio eligendi ducimus. Commodi voluptatem ab debitis inventore, laborum at maiores reiciendis dolor deleniti ipsam distinctio voluptas eos autem quidem a quia laboriosam similique soluta rem? Eum.
-  - name: Intro
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia esse aut, blanditiis ullam. Similique quo iusto ipsa, excepturi autem voluptate consectetur sit quae praesentium <span class="default-text bold-text">aliquam molestiae</span> minima ex perferendis aut unde tempora amet esse inventore quaerat molestias eum distinctio eligendi ducimus. Commodi voluptatem ab debitis inventore, laborum at maiores reiciendis dolor deleniti ipsam distinctio voluptas eos autem quidem a quia laboriosam similique soluta rem? Eum.
-  - name: Intro
+  - name: Current projects
     description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia esse aut, blanditiis ullam. Similique quo iusto ipsa, excepturi autem voluptate consectetur sit quae praesentium <span class="default-text bold-text">aliquam molestiae</span> minima ex perferendis aut unde tempora amet esse inventore quaerat molestias eum distinctio eligendi ducimus. Commodi voluptatem ab debitis inventore, laborum at maiores reiciendis dolor deleniti ipsam distinctio voluptas eos autem quidem a quia laboriosam similique soluta rem? Eum.
 projects:
   - title: Strato
-    type: wed design
-    link: https://unsplash.com/photos/hpjSkU2UYSU
-    image:
-      url: works/strato.jpg
+    type: web design
+    link: http://localhost:1313/blog/
+    image: 
+      url: Bank of England.jpg
       alt: The Strato web design theme
       media: "(max-width: 46.25em)"
       params:
@@ -40,11 +39,11 @@ projects:
       - options: 360x318 Left
   - title: Analytik
     type: UI/UX
-    link: https://unsplash.com/photos/yeB9jDmHm6M
+    link: http://localhost:1313/blog/
     class: short-col
     image:
-      url: works/analytik.jpg
-      alt: The Analytic web design theme
+      url: grey mountains.jpg
+      alt: Grey mountains with fog
       media: "(max-width: 46.25em)"
       params:
       - options: 364x590 Top
@@ -53,23 +52,23 @@ projects:
       - options: 360x318
   - title: Friends
     type: Product Development
-    link: https://unsplash.com/photos/ir5lIkVFqC4
+    link: http://localhost:1313/blog/
     class: wide-col
     image:
-      url: works/friends.jpg
-      alt: The Friends theme
+      url: blue marble background.jpg
+      alt: blue marble
       media: "(max-width: 46.25em)"
       params:
       - options: 746x590 Left
       - options: 848x443 Top
       - options: 565x420 Left
       - options: 360x318 Center
-  - title: Food
+  - title: Books
     type: web design
-    link: https://unsplash.com/photos/JVSgcV8_vb4
+    link: http://localhost:1313/blog/
     class: wide-col
     image:
-      url: works/food.jpg
+      url: bank clean line.jpg
       alt: The Food website for recipes
       media: "(max-width: 46.25em)"
       params:
@@ -79,10 +78,10 @@ projects:
       - options: 360x318 Center
   - title: StatApp
     type: UI/UX
-    link: https://unsplash.com/photos/nJX74kn1yn4
+    link: http://localhost:1313/blog/
     class: short-col
     image:
-      url: works/statapp.jpg
+      url: grey background.jpg
       alt: The application for statistic
       media: "(max-width: 46.25em)"
       params:
